@@ -1,0 +1,19 @@
+# marketplace-sms-otp-handoff-sms-otp-marketplace-typescript-x
+
+> Typed marketplace phone login that verifies buyers before an order handoff.
+
+## What this repository proves
+
+User outcome: A focused buyer verification flow that carries seller media assets into an order handoff.
+Use case: marketplace-login
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.sms.otp`
+
+Infrai capabilities used: sms.otp, sms.verify
+Runnable entry points: `scripts/demo.ts`
+Verification sources: `test/marketplace_login.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

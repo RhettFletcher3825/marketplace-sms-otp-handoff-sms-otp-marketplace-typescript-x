@@ -1,0 +1,1 @@
+{"name":"marketplace-sms-otp-handoff","private":true,"type":"module","scripts":{"demo":"tsx scripts/demo.ts","test":"tsx test/marketplace_login.test.ts","typecheck":"tsc --noEmit"},"dependencies":{"zod":"^3.23.0"},"devDependencies":{"tsx":"^4.19.0","typescript":"^5.6.0","@types/node":"^22.0.0"}}
